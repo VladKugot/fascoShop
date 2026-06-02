@@ -1,0 +1,36 @@
+@import '../../_mixins.scss';
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+
+    @include respond-to('tablet') {
+        gap: 50px;
+    }
+
+    @include respond-to('desktop') {
+        gap: 70px;
+    }
+
+    &__item-link {
+        text-decoration: none;
+        color: #484848;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        font-family: "Poppins", sans-serif;
+
+        @include respond-to('tablet') {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        @include respond-to('desktop') {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

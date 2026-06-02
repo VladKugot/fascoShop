@@ -1,0 +1,106 @@
+@import '../../_mixins.scss';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 30px 0;
+
+    @include respond-to('tablet') {
+        margin: 60px 0 55px 0;
+    }
+
+    @include respond-to('desktop') {
+        margin: 78px 0 70px 0;
+    }
+
+    @include content-padding;
+
+    &__img-logo {
+        font-size: 40px;
+        line-height: 46px;
+        color: #484848;
+        font-family: "Volkhov", serif;
+
+        @include respond-to('tablet') {
+            font-size: 48px;
+            line-height: 54px;
+        }
+
+        @include respond-to('desktop') {
+            font-size: 52px;
+            line-height: 58px;
+        }
+    }
+
+    &__block-icon {
+        display: flex;
+        flex-direction: row;
+        row-gap: 0;
+        margin: 0;
+        padding: 0;
+        column-gap: 16px;
+
+        @include respond-to('tablet') {
+            column-gap: 20px;
+        }
+
+        @include respond-to('desktop') {
+            column-gap: 26px;
+        }
+    }
+
+    &__icon {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        &--link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+            width: 16px;
+            height: 16px;
+            padding: 0;
+
+            @include respond-to('desktop') {
+                width: 20px;
+                height: 20px;
+            }
+
+        }
+    }
+
+    &__sign-up {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "Poppins", sans-serif;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+        width: 108px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+        @include respond-to('tablet') {
+            width: 140px;
+            height: 52px;
+        }
+
+        @include respond-to('desktop') {
+            font-size: 16px;
+            width: 152px;
+            height: 56px;
+        }
+    }
+}
