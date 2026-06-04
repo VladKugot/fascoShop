@@ -10,7 +10,7 @@ import { CheckoutPage } from "./Pages/CheckoutPage/CheckoutPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fascoShop">
       <Header />
 
       <main>
