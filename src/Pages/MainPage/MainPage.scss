@@ -1,0 +1,253 @@
+@import "../../mixins";
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    @include content-padding();
+
+    &__block {
+        display: grid;
+        gap: 24px;
+        align-items: start;
+        min-height: 100vh;
+
+        @include display-grid();
+    }
+
+    &__photo {
+        grid-column: span 5;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        height: 100%;
+        background-color: #E0E0E0;
+        border-radius: 10px;
+        width: 100%;
+        justify-content: end;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        @include respond-to('tablet') {
+            grid-column: span 2;
+        }
+
+        @include respond-to('desktop') {
+            grid-column: span 5;
+        }
+
+        &.tablet--watch {
+            display: none;
+
+            @include respond-to('tablet') {
+                display: flex;
+                grid-column: 4 / span 2;
+
+                img {
+                    height: 75%;
+                }
+            }
+
+            @include respond-to('desktop') {
+                display: none;
+
+                img {
+                    height: 100%;
+                }
+            }
+        }
+
+        &.tablet--delete {
+            display: flex;
+
+            @include respond-to('tablet') {
+                display: none;
+            }
+
+            @include respond-to('desktop') {
+                display: flex;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: 75%;
+            max-height: 570px;
+            object-fit: contain;
+            display: block;
+            object-position: center bottom;
+        }
+    }
+
+    &__center {
+        grid-column: span 5;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            max-height: 140px;
+            padding: 5px 5px 0 5px;
+            background-color: #E0E0E0;
+            border-radius: 10px;
+            object-fit: contain;
+            object-position: center bottom;
+            display: block;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            &.bottom {
+                background-color: #F29C8E;
+            }
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+
+            @include respond-to('tablet') {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+
+                h2 {
+                    grid-column: 1 / span 3;
+                }
+
+                h1 {
+                    grid-column: 3 / span 3;
+                }
+
+                h3 {
+                    grid-column: 1 / span 3;
+                }
+
+                .main-page__center__button {
+                    grid-column: 4 / span 2;
+                }
+
+            }
+
+            @include respond-to('desktop') {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h2 {
+                font-size: 75px;
+                color: #484848;
+                letter-spacing: -0.04em;
+                margin: 0;
+                font-weight: 600;
+            }
+
+            h1 {
+                font-size: 165px;
+                letter-spacing: -0.057em;
+                margin: 0;
+                color: transparent;
+                -webkit-text-stroke: 2px #484848;
+                -webkit-text-fill-color: transparent;
+                line-height: 100%;
+            }
+
+            h3 {
+                letter-spacing: 0.1em;
+                font-size: 20px;
+                color: #484848;
+                margin: 0;
+                font-weight: 500;
+            }
+        }
+
+        &__button {
+            margin: 19px 0 19px 0;
+            padding: 20px 60px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            background-color: #000;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    &__partners {
+        @include display-grid();
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: left;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px 0 54px 0;
+        padding: 0;
+
+        @include respond-to('tablet') {
+            margin: 15px 0 72px 0;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        @include respond-to('desktop') {
+            margin: 9px 0 82px 0;
+        }
+
+        &__item {
+            background: url('../../img/mainPage/partners/logo.png') no-repeat left / contain;
+            background-position: left;
+            width: 250px;
+            height: 32px;
+            grid-column: span 2;
+
+            @include respond-to('tablet') {
+                grid-column: span 1;
+            }
+
+            @include respond-to('desktop') {
+                grid-column: span 3;
+                width: 100%;
+            }
+
+            &--2 {
+                background: url('../../img/mainPage/partners/logo (1).png') no-repeat left / contain;
+            }
+
+            &--3 {
+                background: url('../../img/mainPage/partners/logo (2).png') no-repeat left / contain;
+            }
+
+            &--4 {
+                background: url('../../img/mainPage/partners/logo (3).png') no-repeat left / contain;
+            }
+
+            &--5 {
+                background: url('../../img/mainPage/partners/logo (4).png') no-repeat left / contain;
+            }
+
+        }
+    }
+}
