@@ -31,18 +31,16 @@ export const TimeBlock = () => {
   const { d, h, m, s } = formatTime(isTime);
 
   return (
-    <div className="time-block">
-      <div className="time-block__container">
-        <div className="time-block__text-block">
-          <h1 className="time-block__text-block--title">Deals Of The Month</h1>
+        <div className="time-block">
+          <h1 className="time-block__title">Deals Of The Month</h1>
 
-          <p className="time-block__text-block--text">
+          <p className="time-block__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
             duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
             sollicitudin
           </p>
 
-          <div className="time-block__text-block--button">Buy Now</div>
+          <div className="time-block__button">Buy Now</div>
 
           <div className="title-block__time">
             <h2 className="title-block__time--title">
@@ -73,7 +71,6 @@ export const TimeBlock = () => {
 
           </div>
         </div>
-      </div>
-    </div>
+
   );
 };

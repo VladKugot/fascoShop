@@ -251,3 +251,14 @@
         }
     }
 }
+
+.time-and-slider {
+    background-color: #FAFAFA;
+    padding: 155px 0 145px 0;
+
+    &__container {
+        @include content-padding();
+
+        @include display-grid();
+    }
+}
