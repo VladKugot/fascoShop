@@ -27,6 +27,7 @@ export const SliderBlock = () => {
             <p className="slider-block__picture__slider--item active"></p>
             <p className="slider-block__picture__slider--item"></p>
             <p className="slider-block__picture__slider--item"></p>
+            <p className="slider-block__picture__slider--item"></p>
           </div>
         </div>
       </div>
