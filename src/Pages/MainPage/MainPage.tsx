@@ -5,6 +5,7 @@ import bottomImage from "../../img/mainPage/bottom-removebg.png";
 import rightImage from "../../img/mainPage/right.png";
 import { TimeBlock } from "./TimeBlock/TimeBlock";
 import { SwiperBlock } from "./SwiperBlock/SwiperBlock";
+import { Cardblock } from "./CardBlock/CardBlock";
 
 export const MainPage = () => {
   return (
@@ -69,6 +70,7 @@ export const MainPage = () => {
             duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
             sollicitudin
           </p>
+          <Cardblock/>
         </section>
 
         <section className="main-page__content-block">

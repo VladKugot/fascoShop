@@ -1,0 +1,102 @@
+[
+  {
+    "id": "w1",
+    "title": "Classic Beige Trench Coat",
+    "brand": "Zara",
+    "rating": 4.8,
+    "price": 120.00,
+    "inStock": true,
+    "reviewCount": 85,
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w2",
+    "title": "Elegant Summer Sun Dress",
+    "brand": "Mango",
+    "rating": 4.5,
+    "price": 45.99,
+    "inStock": true,
+    "reviewCount": 42,
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w3",
+    "title": "Oversized Knit Sweater",
+    "brand": "H&M",
+    "rating": 4.2,
+    "price": 34.50,
+    "inStock": true,
+    "reviewCount": 110,
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w4",
+    "title": "High-Waisted Denim Jeans",
+    "brand": "Levi's",
+    "rating": 4.9,
+    "price": 89.00,
+    "inStock": false,
+    "reviewCount": 215,
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w5",
+    "title": "Leather Biker Jacket",
+    "brand": "AllSaints",
+    "rating": 5.0,
+    "price": 250.00,
+    "inStock": true,
+    "reviewCount": 67,
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w6",
+    "title": "White Casual Linen Shirt",
+    "brand": "Massimo Dutti",
+    "rating": 4.6,
+    "price": 55.00,
+    "inStock": true,
+    "reviewCount": 38,
+    "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w7",
+    "title": "Pleated Midi Skirt",
+    "brand": "Bershka",
+    "rating": 4.3,
+    "price": 29.99,
+    "inStock": true,
+    "reviewCount": 54,
+    "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w8",
+    "title": "Sporty Crop Top Blazer",
+    "brand": "Pull&Bear",
+    "rating": 4.4,
+    "price": 39.99,
+    "inStock": false,
+    "reviewCount": 29,
+    "imageUrl": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w9",
+    "title": "Cozy Autumn Cardigan",
+    "brand": "Stradivarius",
+    "rating": 4.7,
+    "price": 49.50,
+    "inStock": true,
+    "reviewCount": 81,
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "w10",
+    "title": "Floral Evening Gown",
+    "brand": "Asos Design",
+    "rating": 4.8,
+    "price": 110.00,
+    "inStock": true,
+    "reviewCount": 19,
+    "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&auto=format&fit=crop&q=80"
+  }
+]
