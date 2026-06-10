@@ -3,7 +3,15 @@
 .main-page {
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 32px;
+
+    @include respond-to("tablet") {
+            gap: 80px;
+    }
+
+    @include respond-to("desktop") {
+            gap: 150px;
+    }
 
     @include content-padding();
 
@@ -16,9 +24,17 @@
         justify-content: center;
         margin: 0;
         padding: 0;
-        
+
         &.first {
-            padding-top: 150px;
+            padding-top: 32px;
+
+            @include respond-to("tablet") {
+                padding-top: 64px;
+            }
+
+            @include respond-to("desktop") {
+                padding-top: 150px;
+            }
         }
     }
 
