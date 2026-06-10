@@ -8,6 +8,8 @@
 Проєкт реалізовано на основі безкоштовного макету з Figma Community:
 👉 **[Посилання на Figma макет: Online Shopping Website](https://www.figma.com/community/file/1277998375898787881/online-shopping-website-design-ecommerce-store-website-ui-kit)**
 
+
+👉 **[Посилання на сайт](https://vladkugot.github.io/fascoShop/)**
 ---
 
 ## 🛠️ Стек технологій
