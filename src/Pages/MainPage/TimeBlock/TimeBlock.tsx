@@ -32,9 +32,9 @@ export const TimeBlock = () => {
 
   return (
         <div className="time-block">
-          <h1 className="time-block__title">Deals Of The Month</h1>
+          <h1 className="main-page__title">Deals Of The Month</h1>
 
-          <p className="time-block__text">
+          <p className="main-page__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
             duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
             sollicitudin

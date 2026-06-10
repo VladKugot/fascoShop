@@ -28,42 +28,6 @@
         grid-column: 1 / 6;
     }
 
-    &__title {
-        font-size: 25px;
-        font-weight: 500;
-        font-family: "Volkhov", serif;
-        color: #484848;
-        margin: 0;
-        padding: 0;
-
-        @include respond-to('tablet') {
-            font-size: 35px;
-        }
-
-        @include respond-to('desktop') {
-            font-size: 42px;
-        }
-    }
-
-    &__text {
-        font-family: "Poppins", sans-serif;
-        line-height: 18px;
-        font-size: 12px;
-        font-weight: 500;
-        color: #8A8A8A;
-        margin: 0;
-
-        @include respond-to('tablet') {
-            line-height: 22px;
-            font-size: 14px;
-        }
-
-        @include respond-to('desktop') {
-            line-height: 26px;
-            font-size: 16px;
-        }
-    }
-
     &__button {
         display: inline-flex;
         align-items: center;

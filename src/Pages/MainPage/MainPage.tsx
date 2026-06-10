@@ -61,6 +61,37 @@ export const MainPage = () => {
           <SwiperBlock />
         </div>
       </section>
+      <div className="main-page">
+        <section className="main-page__content-block first">
+          <h1 className="main-page__title">New Arrival</h1>
+          <p className="main-page__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
+            sollicitudin
+          </p>
+        </section>
+
+        <section className="main-page__content-block">
+          <h1 className="main-page__title">Peaky Blinders</h1>
+        </section>
+
+        <section className="main-page__content-block">
+          <h1 className="main-page__title">Follow Us On Instagram</h1>
+          <p className="main-page__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
+            sollicitudin
+          </p>
+        </section>
+
+        <section className="main-page__content-block">
+          <h1 className="main-page__title">This Is What Our Customers Say</h1>
+          <p className="main-page__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis
+          </p>
+        </section>
+      </div>
     </>
   );
 };
