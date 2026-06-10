@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "https://picsum.photos/id/20/800/600",
+    "number": "01",
+    "title": "Spring Sale",
+    "discount": "30% OFF"
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://picsum.photos/id/21/500/400",
+    "number": "02",
+    "title": "Summer Vibe",
+    "discount": "20% OFF"
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://picsum.photos/id/22/500/400",
+    "number": "03",
+    "title": "Autumn Warmth",
+    "discount": "15% OFF"
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://picsum.photos/id/23/500/400",
+    "number": "04",
+    "title": "Winter Magic",
+    "discount": "40% OFF"
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://picsum.photos/id/24/500/400",
+    "number": "05",
+    "title": "Black Friday",
+    "discount": "50% OFF"
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://picsum.photos/id/25/500/400",
+    "number": "06",
+    "title": "Cyber Monday",
+    "discount": "25% OFF"
+  },
+  {
+    "id": 7,
+    "imgUrl": "https://picsum.photos/id/26/500/400",
+    "number": "07",
+    "title": "Exclusive Drop",
+    "discount": "10% OFF"
+  }
+]

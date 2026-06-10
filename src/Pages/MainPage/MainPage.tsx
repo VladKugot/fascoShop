@@ -5,6 +5,7 @@ import bottomImage from "../../img/mainPage/bottom-removebg.png";
 import rightImage from "../../img/mainPage/right.png";
 import { TimeBlock } from "./TimeBlock/TimeBlock";
 import { SliderBlock } from "./SliderBlock/SliderBlock";
+import { SwiperBlock } from "./SwiperBlock/SwiperBlock";
 
 export const MainPage = () => {
   return (
@@ -55,11 +56,10 @@ export const MainPage = () => {
         </div>
       </div>
 
-      <section className="time-and-slider">
-        <div className="time-and-slider__container">
+      <section className="time-slider-block">
+        <div className="time-slider-block__container">
           <TimeBlock />
-
-          <SliderBlock />
+          <SwiperBlock />
         </div>
       </section>
     </>
