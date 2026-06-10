@@ -1,0 +1,102 @@
+[
+  {
+    "id": "m1",
+    "title": "Classic Leather Jacket",
+    "brand": "Diesel",
+    "rating": 4.9,
+    "price": 199.99,
+    "inStock": true,
+    "reviewCount": 142,
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m2",
+    "title": "Slim Fit Denim Shirt",
+    "brand": "Levi's",
+    "rating": 4.6,
+    "price": 65.00,
+    "inStock": true,
+    "reviewCount": 98,
+    "imageUrl": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m3",
+    "title": "Urban Style Hoodie",
+    "brand": "Nike",
+    "rating": 4.8,
+    "price": 55.50,
+    "inStock": true,
+    "reviewCount": 320,
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m4",
+    "title": "Casual Cotton Chinos",
+    "brand": "Tommy Hilfiger",
+    "rating": 4.4,
+    "price": 79.99,
+    "inStock": false,
+    "reviewCount": 64,
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m5",
+    "title": "Minimalist White Sneakers",
+    "brand": "Adidas",
+    "rating": 4.7,
+    "price": 85.00,
+    "inStock": true,
+    "reviewCount": 512,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m6",
+    "title": "Wool Blend Winter Coat",
+    "brand": "Hugo Boss",
+    "rating": 4.9,
+    "price": 280.00,
+    "inStock": true,
+    "reviewCount": 36,
+    "imageUrl": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m7",
+    "title": "Basic Crewneck T-Shirt",
+    "brand": "Uniqlo",
+    "rating": 4.5,
+    "price": 19.99,
+    "inStock": true,
+    "reviewCount": 840,
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m8",
+    "title": "Formal Slim Fit Suit",
+    "brand": "Calvin Klein",
+    "rating": 5.0,
+    "price": 350.00,
+    "inStock": true,
+    "reviewCount": 24,
+    "imageUrl": "https://images.unsplash.com/photo-1593030103066-0093718efeb9?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m9",
+    "title": "Plaid Flannel Shirt",
+    "brand": "Timberland",
+    "rating": 4.3,
+    "price": 48.00,
+    "inStock": false,
+    "reviewCount": 73,
+    "imageUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "m10",
+    "title": "Knitted Winter Scarf",
+    "brand": "Zara Men",
+    "rating": 4.2,
+    "price": 25.00,
+    "inStock": true,
+    "reviewCount": 45,
+    "imageUrl": "https://images.unsplash.com/photo-1520903928343-46d2fc1d3366?w=500&auto=format&fit=crop&q=80"
+  }
+]
