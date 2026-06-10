@@ -4,7 +4,6 @@ import topImage from "../../img/mainPage/top.png";
 import bottomImage from "../../img/mainPage/bottom-removebg.png";
 import rightImage from "../../img/mainPage/right.png";
 import { TimeBlock } from "./TimeBlock/TimeBlock";
-import { SliderBlock } from "./SliderBlock/SliderBlock";
 import { SwiperBlock } from "./SwiperBlock/SwiperBlock";
 
 export const MainPage = () => {
