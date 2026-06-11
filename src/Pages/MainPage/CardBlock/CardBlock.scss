@@ -43,6 +43,7 @@
     row-gap: 20px;
     align-items: center;
     width: 100%;
+    font-family: 'Poppins';
 
     @include respond-to("tablet") {
         gap: 20px;
@@ -73,8 +74,22 @@
 
         @include respond-to('desktop') {
             font-size: 16px;
-            padding: 20px;
+            padding: 20px 15px;
             width: 200px;
+        }
+
+        &--more {
+            width: 100%;
+            padding: 20px;
+            font-size: 14px;
+
+            @include btn-drop();
+
+            @include respond-to('tablet') {
+                font-size: 16px;
+                width: fit-content;
+                padding: 20px 70px;
+            }
         }
 
 
@@ -152,8 +167,13 @@
 
     &__raiting {
         margin: 0;
-        color: #fff;
-        background-color: #FCA120;
+        color: #FCA120;
+        display: flex;
+        gap: 4px;
+
+        &--item {
+            font-size: 20px;
+        }
     }
 
     &__text {

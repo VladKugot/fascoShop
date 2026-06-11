@@ -6,6 +6,7 @@ import rightImage from "../../img/mainPage/right.png";
 import { TimeBlock } from "./TimeBlock/TimeBlock";
 import { SwiperBlock } from "./SwiperBlock/SwiperBlock";
 import { Cardblock } from "./CardBlock/CardBlock";
+import { PeakyBlindersBlock } from "./PeakyBlindersBlock/PeakyBlindersBlock";
 
 export const MainPage = () => {
   return (
@@ -62,6 +63,7 @@ export const MainPage = () => {
           <SwiperBlock />
         </div>
       </section>
+
       <div className="main-page">
         <section className="main-page__content-block first">
           <h1 className="main-page__title">New Arrival</h1>
@@ -70,14 +72,16 @@ export const MainPage = () => {
             duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
             sollicitudin
           </p>
-          <Cardblock/>
+          <Cardblock />
         </section>
-
-        <section className="main-page__content-block">
-          <h1 className="main-page__title">Peaky Blinders</h1>
-        </section>
-
-        <section className="main-page__content-block">
+      </div>
+      
+      <section className="main-page__content-block first">
+        <PeakyBlindersBlock />
+      </section>
+      
+      <div className="main-page">
+        <section className="main-page__content-block first">
           <h1 className="main-page__title">Follow Us On Instagram</h1>
           <p className="main-page__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
