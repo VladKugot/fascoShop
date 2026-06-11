@@ -97,6 +97,7 @@
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.2s ease;
+    text-decoration: none;
 
     &:hover {
         transform: scale(1.05);

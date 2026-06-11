@@ -7,10 +7,11 @@ import { ShopPage } from "./Pages/ShopPage/ShopPage";
 import { ProductPage } from "./Pages/ProductPage/ProductPage";
 import { CartPage } from "./Pages/CartPage/CartPage";
 import { CheckoutPage } from "./Pages/CheckoutPage/CheckoutPage";
+import { GoodsPage } from "./Pages/GoodsPage/GoodsPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/fascoShop">
+    <BrowserRouter basename="/fascoShop/">
       <Header />
 
       <main>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/product" element={<ProductPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/goods/:id" element={<GoodsPage />} />
         </Routes>
       </main>
 

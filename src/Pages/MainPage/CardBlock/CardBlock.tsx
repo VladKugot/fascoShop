@@ -1,74 +1,71 @@
-import { useEffect, useState } from "react";
 import "./CardBlock.scss";
-
-import womenFashion from "../../../../public/WomenGoods.json";
-import menFashion from "../../../../public/MenGoods.json";
-
-export interface Goods {
-  id: string | number;
-  title: string;
-  description?: string;
-  price: number;
-  image: string;
-  category?: string;
-  inStock: boolean;
-}
+import Goods from "../../../../public/Goods.json";
+import type { GoodsItem } from "../../../Components/utills/Goods";
+import { NavLink, useSearchParams } from "react-router-dom";
 
 export const Cardblock = () => {
-  const [isTypePage, setTypePage] = useState("men-fashion");
-  const [isGoodsList, setGoodsList] = useState(womenFashion);
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  useEffect(() => {
-    if (isTypePage === "men-fashion") {
-      setGoodsList(menFashion);
-    } else if (isTypePage === "women-fashion") {
-      setGoodsList(womenFashion);
-    }
-  }, [isTypePage]);
+  const currentCategory = searchParams.get("category") || "men-fashion";
+  let filteredGoods: GoodsItem[] = [];
+  
+  if (currentCategory === "men-fashion") {
+    filteredGoods = Goods.filter((item) => item.id.toString().startsWith("mf"));
+  } else if (currentCategory === "women-fashion") {
+    filteredGoods = Goods.filter((item) => item.id.toString().startsWith("wf"));
+  } else if (currentCategory === "discount") {
+    filteredGoods = Goods.filter((item) => item.discountPrice && item.discountPrice < item.price);
+  } else {
+    filteredGoods = Goods;
+  }
+
+  const handleTabClick = (categoryName: string) => {
+    setSearchParams({ category: categoryName });
+  };
 
   return (
     <div className="card-block">
       <div className="button-container">
         <h3
-          className={`button-container__item ${isTypePage === "men-fashion" ? "active" : ""}`}
-          onClick={() => setTypePage("men-fashion")}
+          className={`button-container__item ${currentCategory === "men-fashion" ? "active" : ""}`}
+          onClick={() => handleTabClick("men-fashion")}
         >
           Men’s Fashion
         </h3>
 
         <h3
-          className={`button-container__item ${isTypePage === "women-fashion" ? "active" : ""}`}
-          onClick={() => setTypePage("women-fashion")}
+          className={`button-container__item ${currentCategory === "women-fashion" ? "active" : ""}`}
+          onClick={() => handleTabClick("women-fashion")}
         >
           Women’s Fashion
         </h3>
 
         <h3
-          className={`button-container__item ${isTypePage === "women-acces" ? "active" : ""}`}
-          onClick={() => setTypePage("women-acces")}
+          className={`button-container__item ${currentCategory === "women-acces" ? "active" : ""}`}
+          onClick={() => handleTabClick("women-acces")}
         >
           Women Accessories
         </h3>
 
         <h3
-          className={`button-container__item ${isTypePage === "men-acces" ? "active" : ""}`}
-          onClick={() => setTypePage("men-acces")}
+          className={`button-container__item ${currentCategory === "men-acces" ? "active" : ""}`}
+          onClick={() => handleTabClick("men-acces")}
         >
           Men Accessories
         </h3>
 
         <h3
-          className={`button-container__item ${isTypePage === "discount" ? "active" : ""}`}
-          onClick={() => setTypePage("discount")}
+          className={`button-container__item ${currentCategory === "discount" ? "active" : ""}`}
+          onClick={() => handleTabClick("discount")}
         >
           Discount Deals
         </h3>
       </div>
 
       <div className="card-container">
-        {isGoodsList.slice(0, 6).map((good) => (
-          <div className="card">
-            <img src={good.imageUrl} alt="" className="card__img" />
+        {filteredGoods.slice(0, 6).map((good) => (
+          <NavLink to={`/goods/${good.id}`} key={good.id} className="card">
+            <img src={good.imageUrls?.[0]} alt={good.title} className="card__img" />
             <div className="card__content">
               <div className="card__content__block--main">
                 <div className="card__content__block">
@@ -81,15 +78,17 @@ export const Cardblock = () => {
               <p className="card__text">{good.reviewCount} Customer Reviews</p>
 
               <div className="card__content__block--main">
-                <h1 className="card__title">${good.price}</h1>
-                {good.inStock ? (
-                  <p className="card__text">Buy</p>
+                <h1 className="card__title">
+                  ${good.discountPrice ? good.discountPrice : good.price}
+                </h1>
+                {good.inStock > 0 ? (
+                  <p className="card__text" style={{ color: "green" }}>Buy</p>
                 ) : (
-                  <p className="card__text">Nothing</p>
+                  <p className="card__text" style={{ color: "red" }}>Nothing</p>
                 )}
               </div>
             </div>
-          </div>
+          </NavLink>
         ))}
       </div>
     </div>

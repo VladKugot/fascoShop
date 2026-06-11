@@ -1,0 +1,325 @@
+[
+  {
+    "id": "m1",
+    "title": "Classic Leather Jacket",
+    "brand": "Diesel",
+    "rating": 4.9,
+    "price": 199.99,
+    "discountPrice": 169.99,
+    "inStock": 14,
+    "reviewCount": 142,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black", "Dark Brown"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf2",
+    "title": "Slim Fit Denim Shirt",
+    "brand": "Levi's",
+    "rating": 4.6,
+    "price": 65.00,
+    "discountPrice": 52.00,
+    "inStock": 45,
+    "reviewCount": 98,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Light Blue", "Deep Indigo"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf3",
+    "title": "Urban Style Hoodie",
+    "brand": "Nike",
+    "rating": 4.8,
+    "price": 55.50,
+    "discountPrice": 45.00,
+    "inStock": 88,
+    "reviewCount": 320,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": ["Grey", "Black", "White", "Navy"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf4",
+    "title": "Casual Cotton Chinos",
+    "brand": "Tommy Hilfiger",
+    "rating": 4.4,
+    "price": 79.99,
+    "discountPrice": 64.99,
+    "inStock": 0,
+    "reviewCount": 64,
+    "sizes": ["30", "32", "34", "36"],
+    "colors": ["Beige", "Khaki", "Navy"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf5",
+    "title": "Minimalist White Sneakers",
+    "brand": "Adidas",
+    "rating": 4.7,
+    "price": 85.00,
+    "discountPrice": 72.25,
+    "inStock": 120,
+    "reviewCount": 512,
+    "sizes": ["41", "42", "43", "44", "45"],
+    "colors": ["White", "White/Black"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf6",
+    "title": "Wool Blend Winter Coat",
+    "brand": "Hugo Boss",
+    "rating": 4.9,
+    "price": 280.00,
+    "discountPrice": 240.00,
+    "inStock": 7,
+    "reviewCount": 36,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Charcoal", "Black"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf7",
+    "title": "Basic Crewneck T-Shirt",
+    "brand": "Uniqlo",
+    "rating": 4.5,
+    "price": 19.99,
+    "discountPrice": 15.99,
+    "inStock": 350,
+    "reviewCount": 840,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Black", "Grey", "Navy", "Olive"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf8",
+    "title": "Formal Slim Fit Suit",
+    "brand": "Calvin Klein",
+    "rating": 5.0,
+    "price": 350.00,
+    "discountPrice": 299.99,
+    "inStock": 4,
+    "reviewCount": 24,
+    "sizes": ["48", "50", "52", "54"],
+    "colors": ["Navy Blue", "Dark Grey"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1593030103066-0093718efeb9?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf9",
+    "title": "Plaid Flannel Shirt",
+    "brand": "Timberland",
+    "rating": 4.3,
+    "price": 48.00,
+    "discountPrice": 38.50,
+    "inStock": 0,
+    "reviewCount": 73,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Red Plaid", "Green Plaid"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "mf10",
+    "title": "Knitted Winter Scarf",
+    "brand": "Zara Men",
+    "rating": 4.2,
+    "price": 25.00,
+    "discountPrice": 19.99,
+    "inStock": 62,
+    "reviewCount": 45,
+    "sizes": ["One Size"],
+    "colors": ["Burgundy", "Camel", "Grey"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1520903928343-46d2fc1d3366?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1576871337622-98d48d4aa53e?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf1",
+    "title": "Classic Beige Trench Coat",
+    "brand": "Zara",
+    "rating": 4.8,
+    "price": 120.00,
+    "discountPrice": 99.99,
+    "inStock": 23,
+    "reviewCount": 85,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Beige", "Camel"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf2",
+    "title": "Elegant Summer Sun Dress",
+    "brand": "Mango",
+    "rating": 4.5,
+    "price": 45.99,
+    "discountPrice": 38.00,
+    "inStock": 56,
+    "reviewCount": 42,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Yellow", "White", "Floral"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf3",
+    "title": "Oversized Knit Sweater",
+    "brand": "H&M",
+    "rating": 4.2,
+    "price": 34.50,
+    "discountPrice": 27.99,
+    "inStock": 112,
+    "reviewCount": 110,
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": ["Cream", "Grey", "Dusty Rose"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1517231922316-a9d8dbfe9906?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf4",
+    "title": "High-Waisted Denim Jeans",
+    "brand": "Levi's",
+    "rating": 4.9,
+    "price": 89.00,
+    "discountPrice": 75.00,
+    "inStock": 0,
+    "reviewCount": 215,
+    "sizes": ["25", "26", "27", "28", "29", "30"],
+    "colors": ["Light Wash", "Dark Indigo", "Black"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf5",
+    "title": "Leather Biker Jacket",
+    "brand": "AllSaints",
+    "rating": 5.0,
+    "price": 250.00,
+    "discountPrice": 210.00,
+    "inStock": 8,
+    "reviewCount": 67,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf6",
+    "title": "White Casual Linen Shirt",
+    "brand": "Massimo Dutti",
+    "rating": 4.6,
+    "price": 55.00,
+    "discountPrice": 44.00,
+    "inStock": 34,
+    "reviewCount": 38,
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["White", "Soft Blue"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf7",
+    "title": "Pleated Midi Skirt",
+    "brand": "Bershka",
+    "rating": 4.3,
+    "price": 29.99,
+    "discountPrice": 22.50,
+    "inStock": 41,
+    "reviewCount": 54,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Emerald Green", "Black", "Dusty Pink"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf8",
+    "title": "Sporty Crop Top Blazer",
+    "brand": "Pull&Bear",
+    "rating": 4.4,
+    "price": 39.99,
+    "discountPrice": 31.99,
+    "inStock": 0,
+    "reviewCount": 29,
+    "sizes": ["XS", "S", "M"],
+    "colors": ["Sage Green", "Black"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf9",
+    "title": "Cozy Autumn Cardigan",
+    "brand": "Stradivarius",
+    "rating": 4.7,
+    "price": 49.50,
+    "discountPrice": 39.99,
+    "inStock": 73,
+    "reviewCount": 81,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Mustard", "Rust", "Oatmeal"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    "id": "wf10",
+    "title": "Floral Evening Gown",
+    "brand": "Asos Design",
+    "rating": 4.8,
+    "price": 110.00,
+    "discountPrice": 89.99,
+    "inStock": 12,
+    "reviewCount": 19,
+    "sizes": ["6", "8", "10", "12", "14"],
+    "colors": ["Navy Floral", "Burgundy Floral"],
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=80"
+    ]
+  }
+
+]
