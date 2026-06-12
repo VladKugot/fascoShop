@@ -320,8 +320,68 @@
 
         }
     }
-}
 
+    &__block-pictures {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+        @include respond-to('tablet') {
+            padding-top: 50px;
+        }
+
+        @include respond-to('desktop') {
+            padding-top: 80px;
+        }
+
+        &--item {
+            width: 100px;
+            height: 150px;
+            margin: 0;
+            padding: 0;
+            object-fit: cover;
+            object-position: top;
+
+            @include respond-to('tablet') {
+                width: 180px;
+                height: 260px;
+            }
+
+            @include respond-to('desktop') {
+                width: 256px;
+                height: 380px;
+            }
+
+            &:first-child {
+                width: auto;
+                flex-grow: 1;
+            }
+
+            &:last-child {
+                width: auto;
+                flex-grow: 1;
+            }
+        }
+
+        &--small {
+            height: 120px;
+
+            @include respond-to('tablet') {
+                height: 210px;
+            }
+
+            @include respond-to('desktop') {
+                height: 300px;
+            }
+        }
+    }
+}
 
 .time-slider-block {
     background-color: #FAFAFA;

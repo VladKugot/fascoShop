@@ -1,0 +1,94 @@
+.response-wrapper {
+    width: 100vw;
+    padding: 60px 0;
+    overflow: hidden;
+    align-items: c;
+}
+
+.response-slide {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+
+    &.swiper-slide-active {
+        opacity: 1;
+    }
+
+}
+
+.response-block {
+
+    &__card {
+        width: 100%;
+        max-width: 700px;
+        height: 400;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 70px 50px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        margin: 0 auto;
+        display: flex;
+        gap: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: "Poppins";
+        font-size: 16px;
+        color: #484848;
+        filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.25));
+    }
+
+    &__text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: start;
+        margin: 0;
+    }
+
+    &__review {
+        margin: 0;
+    }
+
+    &__raiting {
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+        margin: 0;
+        padding-top: 15px;
+
+        &--item {
+            color: #FCA120;
+            font-size: 19px;
+            line-height: 20px;
+        }
+    }
+
+    &__line {
+        margin: 0;
+        height: 1px;
+        background-color: #484848;
+
+        margin-top: 15px;
+        width: 230px;
+    }
+
+    &__name {
+        margin: 0;
+        font-size: 32px;
+        font-family: "Volkhov";
+    }
+
+    &__role {
+       margin: 0;
+       font-size: 16px;
+       font-weight: 500; 
+    }
+
+    &__avatar {
+        width: 245px;
+        height: 245px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+}

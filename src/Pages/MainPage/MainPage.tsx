@@ -7,6 +7,25 @@ import { TimeBlock } from "./TimeBlock/TimeBlock";
 import { SwiperBlock } from "./SwiperBlock/SwiperBlock";
 import { Cardblock } from "./CardBlock/CardBlock";
 import { PeakyBlindersBlock } from "./PeakyBlindersBlock/PeakyBlindersBlock";
+import { clsx as cn } from "clsx";
+import photoInstagram1 from "../../img/mainPage/instagram/image_1.png";
+import photoInstagram2 from "../../img/mainPage/instagram/image_2.png";
+import photoInstagram3 from "../../img/mainPage/instagram/image_3.png";
+import photoInstagram4 from "../../img/mainPage/instagram/image_4.png";
+import photoInstagram5 from "../../img/mainPage/instagram/image_5.png";
+import photoInstagram6 from "../../img/mainPage/instagram/image_6.png";
+import photoInstagram7 from "../../img/mainPage/instagram/image_7.png";
+import { ResponseBlock } from "./ResponseBlock/ResponseBlock";
+
+export const instagramPhotos = [
+  photoInstagram1,
+  photoInstagram2,
+  photoInstagram3,
+  photoInstagram4,
+  photoInstagram5,
+  photoInstagram6,
+  photoInstagram7,
+];
 
 export const MainPage = () => {
   return (
@@ -116,24 +135,51 @@ export const MainPage = () => {
         </div>
       </section>
 
-      <div className="main-page">
-        <section className="main-page__content-block first">
-          <h1 className="main-page__title">Follow Us On Instagram</h1>
-          <p className="main-page__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin
-          </p>
-        </section>
+      <section className="main-page__content-block first">
+        <h1 className="main-page__title">Follow Us On Instagram</h1>
+        <p className="main-page__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+          duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
+          sollicitudin
+        </p>
 
-        <section className="main-page__content-block">
-          <h1 className="main-page__title">This Is What Our Customers Say</h1>
-          <p className="main-page__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis
-          </p>
-        </section>
-      </div>
+        <div className="main-page__block-pictures">
+          {instagramPhotos.map((photo, index) => (
+            <img
+              key={index}
+              src={photo}
+              alt="photo instagram"
+              className={cn(
+                "main-page__block-pictures--item",
+                index % 2 === 0 && "main-page__block-pictures--small",
+              )}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section
+        className="main-page__content-block"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          width: "100%",
+          boxSizing: "border-box",
+        }}
+      >
+        <h1 className="main-page__title">This Is What Our Customers Say</h1>
+        <p className="main-page__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+          duis
+        </p>
+
+        <div className="">
+          <ResponseBlock />
+        </div>
+      </section>
     </>
   );
 };

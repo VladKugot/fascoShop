@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "James K.",
+    "role": "Traveler",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "You won't regret it. I would like to personally thank you for your outstanding product. Absolutely wonderful!"
+  },
+  {
+    "id": 2,
+    "name": "Sarah M.",
+    "role": "Fashion Designer",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "The quality of the materials exceeded all my expectations! Fast shipping and excellent customer service. Highly recommend to everyone!"
+  },
+  {
+    "id": 3,
+    "name": "Alex P.",
+    "role": "Photographer",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 4,
+    "review": "Very stylish and comfortable product. It looks exactly like it does in the photos. Delivery took a day longer than expected, but the quality makes up for it."
+  },
+  {
+    "id": 4,
+    "name": "Emily R.",
+    "role": "Lifestyle Blogger",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "I'm in love with this brand! This is my third purchase here, and they never disappoint. Phenomenal attention to detail!"
+  },
+    {
+    "id": 5,
+    "name": "James K.",
+    "role": "Traveler",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "You won't regret it. I would like to personally thank you for your outstanding product. Absolutely wonderful!"
+  },
+  {
+    "id": 6,
+    "name": "Sarah M.",
+    "role": "Fashion Designer",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "The quality of the materials exceeded all my expectations! Fast shipping and excellent customer service. Highly recommend to everyone!"
+  },
+  {
+    "id": 7,
+    "name": "Alex P.",
+    "role": "Photographer",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 4,
+    "review": "Very stylish and comfortable product. It looks exactly like it does in the photos. Delivery took a day longer than expected, but the quality makes up for it."
+  },
+  {
+    "id": 8,
+    "name": "Emily R.",
+    "role": "Lifestyle Blogger",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150",
+    "rating": 5,
+    "review": "I'm in love with this brand! This is my third purchase here, and they never disappoint. Phenomenal attention to detail!"
+  }
+]
