@@ -158,18 +158,7 @@ export const MainPage = () => {
         </div>
       </section>
 
-      <section
-        className="main-page__content-block"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          width: "100%",
-          boxSizing: "border-box",
-        }}
-      >
+      <section className="main-page__content-block main-page__content-block--response">
         <h1 className="main-page__title">This Is What Our Customers Say</h1>
         <p className="main-page__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
@@ -179,6 +168,9 @@ export const MainPage = () => {
         <div className="">
           <ResponseBlock />
         </div>
+
+
+        
       </section>
     </>
   );

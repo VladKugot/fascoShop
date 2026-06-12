@@ -16,7 +16,6 @@ import "swiper/css/effect-coverflow"; // <--- ОБОВ'ЯЗКОВО ДЛЯ 3D
 import "./ResponseBlock.scss";
 import response from "../../../../public/responses.json";
 
-
 export const ResponseBlock = memo(() => {
   return (
     <div className="response-wrapper">
@@ -24,7 +23,7 @@ export const ResponseBlock = memo(() => {
         modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
         effect={"coverflow"}
         centeredSlides={true}
-        slidesPerView={3}
+        slidesPerView={2}
         loop={true}
         grabCursor={true}
         autoplay={{ delay: 10000, disableOnInteraction: false }}
@@ -34,11 +33,15 @@ export const ResponseBlock = memo(() => {
         }}
         coverflowEffect={{
           rotate: 0,
-          stretch: 100,
-          depth: 100,
-          modifier: 1.8,
+          stretch: 200,
+          depth: 200,
+          modifier: 10,
           slideShadows: false,
         }}
+        breakpoints={{
+          0: {
+            coverflowEffect: { stretch: -20, depth: 100 }
+          }}}
       >
         {response.map((el, index) => (
           <SwiperSlide key={index} className="response-slide">
@@ -68,7 +71,6 @@ export const ResponseBlock = memo(() => {
             </div>
           </SwiperSlide>
         ))}
-
       </Swiper>
     </div>
   );
