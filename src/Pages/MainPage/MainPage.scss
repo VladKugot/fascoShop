@@ -6,11 +6,11 @@
     gap: 32px;
 
     @include respond-to("tablet") {
-            gap: 80px;
+        gap: 80px;
     }
 
     @include respond-to("desktop") {
-            gap: 150px;
+        gap: 150px;
     }
 
     @include content-padding();
@@ -355,6 +355,133 @@
 
         @include respond-to('desktop-standart') {
             margin-left: calc((100vw - 1072px) / 2);
+        }
+    }
+}
+
+.opportunity {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 32px 30px 64px 30px;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+
+    @include respond-to('tablet') {
+        flex-direction: row;
+        padding: 60px 30px 80px 30px;
+
+    }
+
+    @include respond-to('desktop') {
+        flex-direction: row;
+        padding: 170px 70px 70px 70px;
+    }
+
+    &__title {
+        color: #484848;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        text-align: left;
+
+        @include respond-to('tablet') {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        @include respond-to('desktop') {
+            font-size: 20px;
+        }
+    }
+
+    &__text {
+        font-weight: 500;
+        line-height: 22px;
+        font-size: 14px;
+        margin: 0;
+        text-align: left;
+
+        @include respond-to('tablet') {
+            text-align: center;
+        }
+
+        @include respond-to('desktop') {
+            line-height: 26px;
+            font-size: 16px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        justify-content: center;
+
+        @include respond-to('tablet') {
+            align-items: center;
+        }
+
+        @include respond-to('desktop') {
+            align-items: left;
+        }
+
+    }
+
+    &__item {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        @include respond-to('tablet') {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        @include respond-to('desktop') {
+            gap: 13px;
+            flex-direction: row;
+            align-items: left;
+        }
+
+
+    }
+
+    &__img {
+        margin: auto 0;
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        background-image: url(../../img/mainPage/oppotunity/oppotunity-icon.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        &--2 {
+            background-image: url(../../img/mainPage/oppotunity/oppotunity-icon\ \(2\).svg);
+        }
+
+        &--3 {
+            background-image: url(../../img/mainPage/oppotunity/oppotunity-icon\ \(3\).svg);
+        }
+
+        &--4 {
+            background-image: url(../../img/mainPage/oppotunity/oppotunity-icon\ \(4\).svg);
+        }
+
+        @include respond-to('tablet') {
+            width: 40px;
+            height: 40px;
+        }
+
+        @include respond-to('desktop') {
+            width: 50px;
+            height: 50px;
         }
     }
 }

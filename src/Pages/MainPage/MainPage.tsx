@@ -75,11 +75,47 @@ export const MainPage = () => {
           <Cardblock />
         </section>
       </div>
-      
+
       <section className="main-page__content-block first">
         <PeakyBlindersBlock />
       </section>
-      
+
+      <section className="opportunity">
+        <div className="opportunity__item">
+          <div className="opportunity__img"></div>
+          <div className="opportunity__content">
+            <h2 className="opportunity__title">High Quality</h2>
+            <span className="opportunity__text">
+              Crafted from top materials
+            </span>
+          </div>
+        </div>
+
+        <div className="opportunity__item">
+          <div className="opportunity__img opportunity__img--2"></div>
+          <div className="opportunity__content">
+            <h2 className="opportunity__title">Warrany Protection</h2>
+            <span className="opportunity__text">Over 2 years</span>
+          </div>
+        </div>
+
+        <div className="opportunity__item">
+          <div className="opportunity__img opportunity__img--3"></div>
+          <div className="opportunity__content">
+            <h2 className="opportunity__title">Free Shipping</h2>
+            <span className="opportunity__text">Order over 150 $</span>
+          </div>
+        </div>
+
+        <div className="opportunity__item">
+          <div className="opportunity__img opportunity__img--4"></div>
+          <div className="opportunity__content">
+            <h2 className="opportunity__title">24 / 7 Support</h2>
+            <span className="opportunity__text">Dedicated support</span>
+          </div>
+        </div>
+      </section>
+
       <div className="main-page">
         <section className="main-page__content-block first">
           <h1 className="main-page__title">Follow Us On Instagram</h1>
