@@ -15,8 +15,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow"; // <--- ОБОВ'ЯЗКОВО ДЛЯ 3D
 import "./ResponseBlock.scss";
 import response from "../../../../public/responses.json";
-import nextIcon from '../../../img/mainPage/next.svg';
-import prevIcon from '../../../img/mainPage/prev.svg';
+
 
 export const ResponseBlock = memo(() => {
   return (
