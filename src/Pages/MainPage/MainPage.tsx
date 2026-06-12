@@ -16,6 +16,7 @@ import photoInstagram5 from "../../img/mainPage/instagram/image_5.png";
 import photoInstagram6 from "../../img/mainPage/instagram/image_6.png";
 import photoInstagram7 from "../../img/mainPage/instagram/image_7.png";
 import { ResponseBlock } from "./ResponseBlock/ResponseBlock";
+import { SubscribeBlock } from "./SubscribeBlock/SubscribeBlock";
 
 export const instagramPhotos = [
   photoInstagram1,
@@ -168,10 +169,9 @@ export const MainPage = () => {
         <div className="">
           <ResponseBlock />
         </div>
-
-
-        
       </section>
+
+      <SubscribeBlock />
     </>
   );
 };
