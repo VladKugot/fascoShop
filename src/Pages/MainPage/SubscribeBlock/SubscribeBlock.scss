@@ -1,25 +1,34 @@
 @import '../../../mixins';
 
 .subscribe-block {
-    min-height: 100vh;
+    min-height: calc(100vh - 323px);
     width: 100%;
 
+    @include respond-to("tablet") {
+        min-height: calc(100vh - 157px);
+    }
+
+        @include respond-to("desktop") {
+        min-height: calc(100vh - 169px);
+    }
+
     &__container {
-        @include content-padding();
-        padding: 150px 0 50px 0;
+        box-sizing: border-box;
+        padding: 50px 0 50px 0;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: 30px;
+        height: calc(100vh - 150px);
     }
 
     &__img {
+        align-self: stretch;
+        flex: 0 0 350px;
         background-image: url(../../../img/mainPage/subscribe/left.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-
-        width: 350px;
-        //min-height: 100%;
 
         &.right {
             background-image: url(../../../img/mainPage/subscribe/right.png);
@@ -30,6 +39,7 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+        justify-content: center;
     }
 
     &__text-content {
@@ -63,6 +73,7 @@
         text-align: center;
         border-radius: 10px;
         cursor: pointer;
+        font-family: "Poppins";
 
         @include btn-drop();
     }
