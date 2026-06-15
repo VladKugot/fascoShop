@@ -1,4 +1,12 @@
 body, html {
   overflow-x: hidden;
   background-color: #F5F5F5;
+    min-height: 100vh;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+} 
