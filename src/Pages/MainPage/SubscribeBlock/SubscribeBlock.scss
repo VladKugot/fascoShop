@@ -1,34 +1,50 @@
 @import '../../../mixins';
 
 .subscribe-block {
-    min-height: calc(100vh - 323px);
     width: 100%;
 
     @include respond-to("tablet") {
         min-height: calc(100vh - 157px);
     }
 
-        @include respond-to("desktop") {
+    @include respond-to("desktop") {
         min-height: calc(100vh - 169px);
     }
 
     &__container {
         box-sizing: border-box;
-        padding: 50px 0 50px 0;
+        padding: 20px 0 20px 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 30px;
-        height: calc(100vh - 150px);
+
+        @include respond-to("tablet") {
+            gap: 30px;
+            padding: 30px 0 30px 0;
+            min-height: calc(100vh - 157px);
+        }
+
+        @include respond-to("desktop") {
+            padding: 50px 0 50px 0;
+            min-height: calc(100vh - 169px);
+        }
     }
 
     &__img {
         align-self: stretch;
-        flex: 0 0 350px;
+        flex: 0 0 100px;
         background-image: url(../../../img/mainPage/subscribe/left.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+
+        @include respond-to("tablet") {
+            flex: 0 0 200px;
+        }
+
+        @include respond-to("desktop") {
+            flex: 0 0 350px;
+        }
 
         &.right {
             background-image: url(../../../img/mainPage/subscribe/right.png);
@@ -38,8 +54,40 @@
     &__content {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
         justify-content: center;
+        max-width: 50%;
+
+        @include respond-to("tablet") {
+            max-width: 30%;
+            gap: 20px;
+        }
+
+        @include respond-to("desktop") {
+            gap: 30px;
+        }
+    }
+
+    &__title {
+        display: block;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 28px;
+        font-family: "Volkhov", serif;
+        color: #484848;
+        margin: 0;
+        padding: 0;
+        filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
+        text-align: center;
+
+        @include respond-to('tablet') {
+            font-size: 35px;
+        }
+
+        @include respond-to('desktop') {
+            font-size: 42px;
+        }
+
     }
 
     &__text-content {
@@ -48,8 +96,22 @@
         gap: 20px;
         padding: 30px;
         font-family: "Poppins";
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 18px;
+
+        @include respond-to("tablet") {
+            font-size: 18px;
+            line-height: 20px;
+            gap: 10px;
+            padding: 30px 0 30px 0;
+        }
+
+        @include respond-to("desktop") {
+            font-size: 22px;
+            line-height: 26px;
+            padding: 30px;
+            gap: 20px;
+        }
 
         filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.12));
 

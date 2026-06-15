@@ -7,7 +7,7 @@ export const SubscribeBlock = () => {
         <div className="subscribe-block__img"></div>
         <div className="subscribe-block__content">
           <div className="subscribe-block__text-content">
-            <h1 className="main-page__title">Subscribe To Our Newsletter</h1>
+            <h1 className="subscribe-block__title">Subscribe To Our Newsletter</h1>
             <p className="main-page__text subscribe-block__text-content--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque
