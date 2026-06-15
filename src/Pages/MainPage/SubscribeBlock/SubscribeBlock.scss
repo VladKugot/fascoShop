@@ -82,10 +82,12 @@
 
         @include respond-to('tablet') {
             font-size: 35px;
+            line-height: 38px;
         }
 
         @include respond-to('desktop') {
             font-size: 42px;
+            line-height: 46px;
         }
 
     }
@@ -119,6 +121,7 @@
             margin: 0;
             margin-top: 30px;
             color: #8A8A8A;
+            text-align: center;
         }
 
         &--text {
@@ -127,16 +130,22 @@
     }
 
     &__btn {
+        box-sizing: border-box;
         margin-inline: auto;
-        padding: 20px 45px;
+        padding: 15px 20px;
         background-color: #000;
         color: #fff;
-        width: fit-content;
+        width: 100%;
         text-align: center;
         border-radius: 10px;
         cursor: pointer;
         font-family: "Poppins";
 
         @include btn-drop();
+
+        @include respond-to("tablet") {
+            padding: 20px 45px;
+            width: fit-content;
+        }
     }
 }
