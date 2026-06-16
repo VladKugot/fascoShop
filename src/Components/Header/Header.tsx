@@ -100,7 +100,7 @@ export const Header = () => {
               </li>
               <li className="header__icon">
                 <NavLink
-                  to="/"
+                  to="/checkout"
                   className="header__icon--link header__icon--link-cart"
                 ></NavLink>
               </li>

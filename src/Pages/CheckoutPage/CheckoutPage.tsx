@@ -1,6 +1,10 @@
-export const CheckoutPage = () => {
+import { SignBlock } from "../MainPage/SingBlock/SignBlock";
 
-    return (
-        <section>Checkout page</section>
-    )
-}
+export const CheckoutPage = () => {
+  return (
+    <section>
+      Checkout page
+      <SignBlock />
+    </section>
+  );
+};

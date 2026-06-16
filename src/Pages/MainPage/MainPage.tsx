@@ -17,6 +17,7 @@ import photoInstagram6 from "../../img/mainPage/instagram/image_6.png";
 import photoInstagram7 from "../../img/mainPage/instagram/image_7.png";
 import { ResponseBlock } from "./ResponseBlock/ResponseBlock";
 import { SubscribeBlock } from "./SubscribeBlock/SubscribeBlock";
+import { SignBlock } from "./SingBlock/SignBlock";
 
 export const instagramPhotos = [
   photoInstagram1,
@@ -170,6 +171,8 @@ export const MainPage = () => {
           <ResponseBlock />
         </div>
       </section>
+
+      <SignBlock />
 
       <SubscribeBlock />
     </>
