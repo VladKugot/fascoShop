@@ -1,0 +1,56 @@
+.goods-page {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-family: "Volkhov";
+
+    &__content-block {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__elements {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &--title {
+            margin: 0;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000;
+            font-weight: 700;
+
+            strong {
+                font-weight: 400;
+            }
+        }
+
+        &--block {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        &--item {
+            display: flex;
+            min-width: 45px;
+            height: 45px;
+            border-radius: 5px;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #EEEEEE;
+            box-sizing: border-box;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+
+            &:active {
+                color: #fff;
+                background-color: #000;
+                border: 1px solid #000;
+            }
+        }
+    }
+}
